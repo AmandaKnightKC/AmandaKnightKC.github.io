@@ -1,5 +1,9 @@
 ## Theme Details Used for my Data Analytics Portfolio Website
 
+Here is the article on Medium by Brian Mwevi that started this project.  [8 Steps To Publishing Your Portfolio On GitHub](https://medium.com/@brianmwevi/8-steps-to-publish-your-portfolio-on-github-9d6e6e3d2e84)
+
+The Github calendar widget suggested for this template is broken.  Don't use it!  The run errors prevent the page from displaying.  The Medium widget seems to also be broken, but it won't break the page.
+
 **Demo:** https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap-theme-for-web-developers/
 
 Developer is a free Bootstrap 5 template designed to **help developers promote their work**. 
@@ -49,6 +53,6 @@ If you'd like to **use the template without the footer attribution link**, you c
 - [Bootstrap](http://getbootstrap.com/)
 - [FontAwesome](http://fortawesome.github.io/Font-Awesome/)
 - [GitHub Activity Stream](http://caseyscarborough.com/projects/github-activity/)
-- [GitHub Calendar Plugin](https://github.com/IonicaBizau/github-calendar)
+
 - [Vanilla RSS](https://github.com/sdepold/jquery-rss)
 - Profile image: [Ben Smith](https://www.flickr.com/photos/dotbenjamin/2577394151)
