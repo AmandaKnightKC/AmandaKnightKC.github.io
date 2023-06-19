@@ -1,6 +1,6 @@
 ## Theme Details Used for my Data Analytics Portfolio Website
 
-Here is the article on Medium by Brian Mwevi that started this project.  [8 Steps To Publishing Your Portfolio On GitHub](https://medium.com/@brianmwevi/8-steps-to-publish-your-portfolio-on-github-9d6e6e3d2e84)
+Here is the article on Medium by Brian Mwevi that started this project: [8 Steps To Publishing Your Portfolio On GitHub](https://medium.com/@brianmwevi/8-steps-to-publish-your-portfolio-on-github-9d6e6e3d2e84)
 
 The Github calendar widget suggested for this template is broken.  Don't use it!  The run errors prevent the page from displaying.  The Medium widget seems to also be broken, but it won't break the page.
 
