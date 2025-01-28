@@ -829,6 +829,6 @@ body[data-theme="dark"] .text-muted {
 }
 
 .smaller-image {
-  width: 80%; /* 80% of the original size */
+  width: 70%; /* 80% of the original size */
   height: auto; /* Maintain aspect ratio */
 }
