@@ -827,3 +827,8 @@ body[data-theme="dark"] .text-muted {
     max-width: inherit;
   }
 }
+
+.smaller-image {
+  width: 80%; /* 80% of the original size */
+  height: auto; /* Maintain aspect ratio */
+}
