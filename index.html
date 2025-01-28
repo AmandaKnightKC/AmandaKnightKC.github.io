@@ -99,7 +99,11 @@
                                 
                                 <div class="featured-image has-ribbon">
                                     <a href="https://www.kaggle.com/code/amandaboyers/lego-exploration-color-changes-since-1949" target="_blank" >
-                                    <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-featured.png" target="_blank" alt="project name" />
+                                        .smaller-image {
+                                            width: 80%; /* 80% of the original size */
+                                            height: auto; /* Maintain aspect ratio */
+                                        }
+                                        <img class="img-fluid project-image rounded shadow-sm smaller-image" src="assets/images/projects/project-featured.png" alt="project name" />
                                     </a>
                                     <div class="ribbon">
                                         <div class="text">New</div>
@@ -109,7 +113,9 @@
                                 <h3 class=" mb-3"><a href="https://www.kaggle.com/code/amandaboyers/lego-exploration-color-changes-since-1949" target="_blank" > LEGO color exploration: How have LEGO piece colors changed since 1949? </a></h3>
                                     
                                 <div class="desc text-start">                                    
-                                   <p> Using data from Rebrickable.com, this analysis explores how LEGO colors have changed from 1949 to 2024. </p> 
+                                   <p> In this project, I analyzed LEGO set color trends since 1949 using Python, Pandas, Matplotlib and Seaborn to create visualizations from historical datasets.  I uncover trends such as the introduction of new color groups, 
+                                    special features, the frequency of specific hues, and shifts in design preferences. This analysis showcases my ability to handle and interpret complex data, providing actionable insights into product 
+                                    development and consumer preferences over time. </p> 
                                 </div><!--//desc-->         
                                 <a class="btn btn-cta-secondary" href="https://www.kaggle.com/code/amandaboyers/lego-exploration-color-changes-since-1949" target="_blank"><i class="fas fa-thumbs-up"></i> full analysis in Python</a>   
                                 <a class="btn btn-cta-secondary" href="https://www.kaggle.com/code/amandaboyers/lego-exploration-color-changes-since-1949" target="_blank">
