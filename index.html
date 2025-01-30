@@ -26,15 +26,64 @@
 
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- header container 1
+        about me container 2
+        latest projects container 3
+        work experience container 4
+        basic information container 5
+        skills container 6
+        testimonials container 7
+        education and certificates container 8
+        languages container 9
+        music container 10
+        conferences container 11-->
+
+    <style>
+        .flex-container {
+            display: flex;
+            flex-direction: column;
+        }
+        .container-1 { order: 1; }
+        .container-2 { order: 2; }
+        .container-3 { order: 3; }
+        .container-4 { order: 4; }
+        .container-5 { order: 5; }
+        .container-6 { order: 6; }
+        .container-7 { order: 7; }
+        .container-8 { order: 8; }
+        .container-9 { order: 9; }
+        .container-10 { order: 10; }
+        .container-11 { order: 11; }
+
+        /* Change order for mobile */
+        @media (max-width: 768px) {
+            .flex-container {
+                flex-direction: column;
+            }
+            .container-1 { order: 1; }
+            .container-2 { order: 2; }
+            .container-3 { order: 4; }
+            .container-4 { order: 7; }
+            .container-5 { order: 3; }
+            .container-6 { order: 5; }
+            .container-7 { order: 8; }
+            .container-8 { order: 6; }
+            .container-9 { order: 9; }
+            .container-10 { order: 10; }
+            .container-11 { order: 11; }
+        }
+    </style>
+</head>
     
 </head> 
 
 <body>
     <!-- ******HEADER****** --> 
-    <header class="header">
-        <div class="container">     
+    <header class="header container-1">
+        <div class="flex-container">     
 	        <div class="row align-items-center">
-			    <div class="col">         
+			    <div class="col"="container container-1">Container 1        
 		            <img class="profile-image img-fluid float-start rounded-circle" src="assets/images/profile.png" alt="profile image" />
 		            <div class="profile-content">
 		                <h1 class="name">Amanda Knight</h1>
@@ -67,10 +116,10 @@
         </div><!--//container-->
     </header><!--//header-->
     
-    <div class="container sections-wrapper py-5">
+    <div class="container sections-wrapper py-5 flex-container">
         <div class="row">
             <div class="primary col-lg-8 col-12">
-                <section class="about section">
+                <section class="about section container-2">
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">About Me</h2>
                         <div class="content">
@@ -90,7 +139,7 @@
                     </div><!--//section-inner-->                 
                 </section><!--//section-->
     
-               <section class="latest section">
+               <section class="latest section container-3">
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">Latest Projects</h2>
                         <div class="content">    
@@ -167,7 +216,7 @@
                     </div><!--//section-inner-->                 
                 </section><!--//section-->
                 
-                <section class="experience section"> 
+                <section class="work-experience section container-4">
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">Work Experience</h2>
                             <div class="content">
@@ -203,7 +252,7 @@
                 </section><!--//section-->
             
             </div><!--//primary-->
-            <div class="secondary col-lg-4 col-12">
+            <div class="secondary col-lg-4 col-12 container-5">
                  <aside class="info aside section">
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading sr-only">Basic Information</h2>
@@ -217,7 +266,7 @@
                     </div><!--//section-inner-->                 
                 </aside><!--//aside-->
                 
-                <aside class="skills aside section">
+                <aside class="skills aside section container-6">
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">Skills</h2>
                         <div class="content">
@@ -257,7 +306,7 @@
                     </div><!--//section-inner-->                 
                 </aside><!--//section-->
                 
-                <aside class="testimonials aside section">
+                <aside class="testimonials aside section container-7">
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">Testimonials</h2>
                         <div class="content">
@@ -274,7 +323,7 @@
                     </div><!--//section-inner-->
                 </aside><!--//section-->
                 
-                <aside class="education aside section">
+                <aside class="education and certificates aside section container-8">
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">Education & Certficates</h2>
                         <div class="content">
@@ -296,7 +345,7 @@
                     </div><!--//section-inner-->
                 </aside><!--//section-->
                             
-                <aside class="languages aside section">
+                <aside class="languages aside section container-9">
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">Languages</h2>
                         <div class="content">
@@ -314,7 +363,7 @@
                     </div><!--//section-inner-->
                 </aside><!--//section-->
                  
-                <aside class="list music aside section">
+                <aside class="list music aside section container-10">
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">Favorite Data Wrangling Music</h2>
                         <div class="content">
@@ -328,7 +377,7 @@
                     </div><!--//section-inner-->
                 </aside><!--//section-->
                 
-                <aside class="list conferences aside section">
+                <aside class="list conferences aside section container-11">
                     <div class="section-inner shadow-sm rounded">
                         <h2 class="heading">Conferences</h2>
                         <div class="content">
