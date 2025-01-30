@@ -18,19 +18,22 @@
         .grid-container {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            gap: 10px;
+            gap: 20px;
+            justify-content: center;
+            padding: 20px;
         }
         .grid-item img {
             width: 100%;
             height: auto;
+            max-width: 500px; /* Adjust this value as needed */
         }
     </style>
 </head>
 <body>
     <header class="header">
         <div class="container sections-wrapper py-5">
-            <div class="row">
-                <div class="primary col-lg-8 col-12">
+            <div class="row justify-content-center">
+                <div class="primary col-lg-10 col-12">
                     <section class="Data Visualizations">
                         <div class="section-inner shadow-sm rounded">
                             <h2 class="heading">LEGO Color Exploration: How have LEGO piece colors changed since 1949?</h2>
@@ -41,7 +44,7 @@
                                     <div class="grid-item"><img src="assets/LEGOproject_Images/2_top10ColoredPieces.png" alt="LEGO Set 3"></div>
                                     <div class="grid-item"><img src="assets/LEGOproject_Images/3_UniqueColorNames.png" alt="LEGO Set 4"></div>
                                     <div class="grid-item"><img src="assets/LEGOproject_Images/4_HeatMapColorGroupsYears.png" alt="LEGO Set 5"></div>
-                                    <div class="grid-item"><img src="assets/LEGOproject_Images/5_ColorGroupsChangeALLTime.png" alt="LEGO Set 6"></div>
+                                    <div class="grid-item"><img src="assets/LEGOproject_Images/5_ColorGroupsChangeALLtime.png" alt="LEGO Set 6"></div>
                                     <div class="grid-item"><img src="assets/LEGOproject_Images/5_PinkOrangePurpleYellow.png" alt="LEGO Set 7"></div>
                                     <div class="grid-item"><img src="assets/LEGOproject_Images/6_ColorGroups49to70.png" alt="LEGO Set 8"></div>
                                     <div class="grid-item"><img src="assets/LEGOproject_Images/7_ColorGroups70to90.png" alt="LEGO Set 9"></div>
@@ -56,5 +59,6 @@
             </div>
         </div>
     </header>
+    <script src="assets/plugins/dark-mode-switch/dark-mode-switch.js"></script>
 </body>
 </html>
