@@ -75,9 +75,27 @@
             .container-12 { order: 12; }
         }
 
-        /* Adjust the font size for work experience titles */
-        .title {
-            font-size: 1.15rem; /* Adjust this value as needed */
+        /* Button container styling */
+        .button-container {
+            display: flex;
+            gap: 10px; /* Space between buttons */
+            flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
+        }
+
+        /* Button styling */
+        .btn-cta-secondary {
+            flex: 1; /* Make buttons take equal space */
+            padding: 10px 20px; /* Adjust padding as needed */
+            text-align: center; /* Center text */
+        }
+
+        @media (max-width: 768px) {
+            .button-container {
+                flex-direction: column;
+            }
+            .btn-cta-secondary {
+                margin-bottom: 10px; /* Space between stacked buttons */
+            }
         }
     </style>
 </head>
@@ -167,10 +185,11 @@
                                    <p> In this project, I analyzed LEGO set color trends since 1949 using Python, Pandas, Matplotlib and Seaborn to create visualizations from historical datasets.  I uncover trends such as the introduction of new color groups, 
                                     special features, the frequency of specific hues, and shifts in design preferences. This analysis showcases my ability to handle and interpret complex data, providing actionable insights into product 
                                     development and consumer preferences over time. </p> 
-                                </div><!--//desc-->         
-                                <a class="btn btn-cta-secondary me-2" href="https://www.kaggle.com/code/amandaboyers/lego-exploration-color-changes-since-1949" target="_blank"><i class="fas fa-thumbs-up"></i> full analysis in Python here</a>
-                                <a class="btn btn-cta-secondary" href="second-page.html" target="_blank"><i class="fas fa-thumbs-up"></i> data Visualizations here</a>
-                                </a>           
+                                 <!-- Button container -->
+                                <div class="button-container">
+                                    <a class="btn btn-cta-secondary" href="https://www.kaggle.com/code/amandaboyers/lego-exploration-color-changes-since-1949" target="_blank"><i class="fas fa-thumbs-up"></i> full analysis in Python here</a>
+                                    <a class="btn btn-cta-secondary" href="second-page.html" target="_blank"><i class="fas fa-thumbs-up"></i> data Visualizations here</a>
+                                </div>          
                             </div><!--//item-->
                             <hr class="divider" />
 
@@ -428,5 +447,4 @@
     <!-- custom js -->
     <script type="text/javascript" src="assets/js/main.js"></script>            
 </body>
->>>>>>> refs/remotes/origin/main
 </html> 
