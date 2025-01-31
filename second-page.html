@@ -49,63 +49,88 @@
                                 <div class="grid-container">
                                     <div class="grid-item">
                                         <img src="assets/LEGOproject_Images/1_UniqueColorNames.png" alt="LEGO Set 1">
-                                        <p>Description for LEGO Set 1</p>
+                                        <p>There are over 244 unique color names from 1949 to present!  In 2004, there was a spike in the number of unique color names when LEGO
+                                             used feedback from foucs groups and company-wide resturctureing to reduce the number of color hues available in sets.  Since then, 
+                                             this number has gradually been increasing year over year.  While this is interesting, it was clear to me that if I wanted to do an anlysis 
+                                             of color changes, I would need to map the color names to general color groups.  This brings us to the next data viz. </p>
                                     </div>
                                     <div class="grid-item">
                                         <img src="assets/LEGOproject_Images/2_ColorGroupCountALLtime.png" alt="LEGO Set 2">
-                                        <p>Description for LEGO Set 2</p>
+                                        <p>To track color changes over time, I grouped each individual color name to the 13 separate color groups seen above.  
+                                            This bar chart represents the distribution of colored LEGO pieces from 1949 to 2024. </p>
                                     </div>
                                     <div class="grid-item">
                                         <img src="assets/LEGOproject_Images/3_top10ColoredPieces.png" alt="LEGO Set 3">
-                                        <p>Description for LEGO Set 3</p>
+                                        <p>Rebrickable.com's LEGO inventory database includes url images to each item number and color.  I grouped the data by item number and color, 
+                                            sorted it from greatest to least, pulled the top 10, and pulled the images to display in this grid.  I guess we shouldn't be surprised that
+                                             the 10 most common pieces are what we find at the bottom of the LEGO bin!</p>
                                     </div>
                                     <div class="grid-item">
                                         <img src="assets/LEGOproject_Images/4_HeatMapColorGroupsYears.png" alt="LEGO Set 4">
-                                        <p>Description for LEGO Set 4</p>
+                                        <p>LEGO started in 1949 with the colors blue, green, red, white and yellow with more color groups being gradually introduced.  This heatmap 
+                                            shoes you what color groups were available in LEGO sets for any given year.  From this chart, we can see that all the color groups 
+                                            we know today where not avialabe until 1994.</p>
                                     </div>
                                     <div class="grid-item">
                                         <img src="assets/LEGOproject_Images/5_PieGlitterGlowTrans.png" alt="LEGO Set 5">
-                                        <p>Description for LEGO Set 5</p>
+                                        <p>As I mapped the unique color names into color groups, I noticed that many of the color names contained the words "glow" or "glitter".  
+                                            There was already a Boolean field called "is_trans" that marked a color as translusent (true) or opique (false).  I added 2 more 
+                                            Boolean columns: Glitter and Glow-in-dark if the color names contained the words "glitter" or "glow" respectively.</p>
                                     </div>
                                     <div class="grid-item">
                                         <img src="assets/LEGOproject_Images/6_ColorGroupsChangeALLTime.png" alt="LEGO Set 6">
-                                        <p>Description for LEGO Set 6</p>
+                                        <p>This line chart tracks the number of pieces avialable in each of the 13 color groups from 1949 to 2024.  As the changes are difficult 
+                                            to track, especially in the early years, I divided the data into four groups: 1949 to 1970, 1970 to 1990, 1990 to 2010 and 2010 to 2024.</p>
                                     </div>
                                     <div class="grid-item">
                                         <img src="assets/LEGOproject_Images/7_PinkOrangePurpleYellow.png" alt="LEGO Set 7">
-                                        <p>Description for LEGO Set 7</p>
+                                        <p>I noticed that there was a marked increase in the number of metallic, orange and pink pieces starting in the 1990s.  In this graph, these 
+                                            colors are displayed separately to highlight thier dramatic increase in recent years, which is expecially true for orange.  The number of
+                                             orange pieces has increased at a higher rate starting around 1999.  The large yellow, pink, orange and purple circles in the chart are 
+                                             the first years that the color had 50 or more pieces present accross all sets being manufactured that year.</p>
                                     </div>
                                     <div class="grid-item">
                                         <img src="assets/LEGOproject_Images/8_ColorGroups49to70.png" alt="LEGO Set 8">
-                                        <p>Description for LEGO Set 8</p>
+                                        <p>This graph shows us that white and red where especially common in LEGO sets from 1949 to 1990.  Special features in the legend show that the first translucent
+                                             piece appeared in LEGO sets in 1949 and the first translucent colored piece in 1965.</p>
                                     </div>
                                     <div class="grid-item">
                                         <img src="assets/LEGOproject_Images/9_ColorGroups70to90.png" alt="LEGO Set 9">
-                                        <p>Description for LEGO Set 9</p>
+                                        <p>From 1970 to 1990, white and red continued to be among the most common colors in LEGO sets, closely followed by black.</p>
                                     </div>
                                     <div class="grid-item">
                                         <img src="assets/LEGOproject_Images/10_ColorGroups90to2010.png" alt="LEGO Set 10">
-                                        <p>Description for LEGO Set 10</p>
+                                        <p>For this time period, we see that gray and black dominate 1990 to 2010 with white and red becoming less dominating in sets.  
+                                            The yellow cirlce reprensents the first glow-in-the-dark piece, introduced in 1993, and the yellow diamond represents the 
+                                            first glitter piece, introduced in 1999.</p>
                                     </div>
                                     <div class="grid-item">
                                         <img src="assets/LEGOproject_Images/11_ColorGroupChanges2010to2024.png" alt="LEGO Set 11">
-                                        <p>Description for LEGO Set 11</p>
+                                        <p>Finally, we come to the modern LEGO peices.  From 2010 to present, gray, black, brown and white are the most common colors.</p>
                                     </div>
                                     <div class="grid-item">
                                         <img src="assets/LEGOproject_Images/12_ColorGroupPortions_4TimePeriods.png" alt="LEGO Set 12">
-                                        <p>Description for LEGO Set 12</p>
+                                        <p>This chart compares colors across all four time periods.  The amount of space taken by the color in the bar represents how common it was compared to
+                                             all pieces present in sets manufactured that year.  In the first time period, white, red, blue and black clearly dominate sets!  By 2010 to 2024, red, 
+                                             blue and white have dwindled in comparison to gray, black and brown!  In todays LEGO sets there are may more color groups available, with purple, pink, 
+                                             metallic and orange being the most rare.  It seems green and yellow have always had lower representation in LEGO boxes!</p>
                                     </div>
                                     <div class="grid-item">
                                         <img src="assets/LEGOproject_Images/13_ThenNowSetImages.png" alt="LEGO Set 13">
-                                        <p>Description for LEGO Set 12</p>
+                                        <p>This is the qualitative portion of my analysis.  The rebrickable.com LEGO database includes a data set called "sets" which includes the set name, year it 
+                                            was manufactured and urls to images of the sets.  To clearly point out the changes in LEGO colors over time, I pulled an image from 1949 and an image from 
+                                            2024 that could be marketed to the same age group.  LEGO sets now clearly contain a great variety of colors, piece types and specialized themes for every 
+                                            age group and hobby. </p>
                                     </div>
                                     <div class="grid-item">
                                         <img src="assets/LEGOproject_Images/14_NumberPartsPerSet_overtime.png" alt="LEGO Set 14">
-                                        <p>Description for LEGO Set 14</p>
+                                        <p>LEGOs has transformed themselves from block building to 3-D puzzle sets.  In 2024, there wer themes for popular movies, such as Dune and Lord of the Rings, 
+                                            many different hobbies, such as roller skating, reto music, flowers and car racing!  This graph clearly shows that the number of peices per set is 
+                                            increasing exponently since 2012.</p>
                                     </div>
                                     <div class="grid-item">
                                         <img src="assets/LEGOproject_Images/15_schema_v3_colors_REBRICKABLE.png" alt="LEGO Set 15">
-                                        <p>Description for LEGO Set 15</p>
+                                        <p>The data for this analysis comes from Rebrickable.com.  The set sets used were colors, inventory_parts, inventories and sets.</p>
                                     </div>
                                 </div>
                             </div>
