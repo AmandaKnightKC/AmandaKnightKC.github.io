@@ -21,6 +21,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #778492;
 }
 
+/* Change h3 font size in the work experience section */
+.work-experience .item .title {
+  font-size: 18px; /* Adjust the size as needed */
+}
+
 a {
   color: #3AAA64;
   -webkit-transition: all 0.4s ease-in-out;
