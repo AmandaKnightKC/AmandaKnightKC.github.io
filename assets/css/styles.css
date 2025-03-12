@@ -369,6 +369,20 @@ a.dotted-link:hover {
   font-size: 18px;
 }
 
+h2 {
+  font-size: 2rem; /* 32px */
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.75rem; /* 28px */
+  font-weight: normal;
+}
+
+.section .heading {
+  font-size: 2rem; /* 32px */
+}
+
 .ghfeed {
   height: 500px;
 }
