@@ -880,8 +880,14 @@ body[data-theme="dark"] .text-muted {
 
 .smaller-project-image {
   max-width: 100%;
-  /* Adjust this size for desktop */
   height: auto;
   display: block;
   margin: 0 auto;
+}
+
+/* Add this for better scaling on phones */
+@media (max-width: 480px) {
+  .smaller-project-image {
+    max-width: 90%;
+  }
 }
