@@ -877,3 +877,10 @@ body[data-theme="dark"] .text-muted {
   margin-top: 1rem;
   /* Optional: spacing from the content above */
 }
+
+.smaller-project-image {
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
