@@ -879,15 +879,19 @@ body[data-theme="dark"] .text-muted {
 }
 
 .smaller-project-image {
-  max-width: 100%;
+  max-width: 600px;
+  /* Cap size on desktop */
+  width: 100%;
+  /* Fill container on small screens */
   height: auto;
   display: block;
   margin: 0 auto;
 }
 
-/* Add this for better scaling on phones */
+/* Force smaller size on phones */
 @media (max-width: 480px) {
   .smaller-project-image {
-    max-width: 90%;
+    max-width: 85vw;
+    /* Shrinks image on mobile */
   }
 }
