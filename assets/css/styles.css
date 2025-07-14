@@ -879,7 +879,7 @@ body[data-theme="dark"] .text-muted {
 }
 
 .smaller-project-image {
-  max-width: 600px;
+  max-width: 100%;
   height: auto;
   display: block;
   margin: 0 auto;
