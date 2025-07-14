@@ -1,0 +1,12 @@
+title: Amanda Knight Portfolio
+description: Data Analyst & Visualization Specialist
+baseurl: "" 
+url: "https://amandaknightkc.github.io"
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/

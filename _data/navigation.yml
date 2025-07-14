@@ -1,0 +1,15 @@
+main:
+  - title: "About"
+    url: /about/
+  - title: "Portfolio Projects"
+    url: /portfolio/
+  - title: "Skills"
+    url: /skills/
+  - title: "Languages"
+    url: /languages/
+  - title: "Conferences"
+    url: /conferences/
+  - title: "Education & Certificates"
+    url: /education/
+  - title: "Testimonials"
+    url: /testimonials/
