@@ -880,7 +880,6 @@ body[data-theme="dark"] .text-muted {
 
 .smaller-project-image {
   max-width: 100%;
-  max-width: 600px;
   /* Adjust this size for desktop */
   height: auto;
   display: block;
