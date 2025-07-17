@@ -36,6 +36,7 @@ I used the free "Developer" Bootstrap template by 3rd Wave Media as a base and c
 ## Repo Structure
 
 ```
+├── LICENSE
 ├── README.md
 ├── assets
 │   ├── LEGOproject_Images
