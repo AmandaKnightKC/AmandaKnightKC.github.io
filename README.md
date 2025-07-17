@@ -1,58 +1,78 @@
-## Theme Details Used for my Data Analytics Portfolio Website
+# Amanda Knight | Data Analytics Portfolio
 
-Here is the article on Medium by Brian Mwevi that started this project: [8 Steps To Publishing Your Portfolio On GitHub](https://medium.com/@brianmwevi/8-steps-to-publish-your-portfolio-on-github-9d6e6e3d2e84)
+> ⚠️ This repository contains my personal portfolio site. It is not intended for reuse, duplication, or distribution.  
+> Please **do not clone or copy** this content. This site represents my professional identity and original work.
 
-The Github calendar widget suggested for this template is broken.  Don't use it!  The run errors prevent the page from displaying.  The Medium widget seems to also be broken, but it won't break the page.
+## About This Portfolio
 
-**Demo:** https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap-theme-for-web-developers/
+This portfolio highlights my skills as a data analyst, including:
 
-Developer is a free Bootstrap 5 template designed to **help developers promote their work**. 
-It can be used as a **professional portal** to your other online portfolios or websites (eg. Linkedin, Blog, GitHub etc) **in a modular fashion**. 
-The template comes with all of the **source SCSS files included** so the styling/colour can easily be customised to your taste.
+- End-to-end data projects using **Python**, **SQL**, and **Tableau**
+- Industry focus on **insurance**, **healthcare**, and **process optimization**
+- Real-world projects involving **data cleaning**, **exploratory analysis**, and **dashboard development**
+- Visualizations and insights designed for **business impact and storytelling**
 
-**New Feature - Dark Mode**
-<a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap-theme-for-web-developers/" target="_blank"><img src="https://themes.3rdwavemedia.com/wp-content/uploads/2021/07/developer-template-BS5-darkmode.gif" alt="Developer Theme Dark Mode" width="750" /></a>
+The site was created as a professional portal to support job applications and share technical work.
 
+## Live Demo
 
-## Author & License
+Visit the live site here:  
+🔗 [https://amandaknightkc.github.io](https://amandaknightkc.github.io)
 
-This Bootstrap template is made by UX/UI designer [Xiaoying Riley](https://twitter.com/3rdwave_themes) for developers and is 100% FREE as long as you **keep the footer attribution link**. You do not have the rights to resell, sublicense or redistribute (even for free) the template on its own or as a separate attachment from any of your work.
+## Background
 
-If you'd like to **use the template without the footer attribution link**, you can [buy the **commercial license** via the theme website](https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap-theme-for-web-developers/)
+This project was inspired by [Brian Mwevi’s Medium guide](https://medium.com/@brianmwevi/8-steps-to-publish-your-portfolio-on-github-9d6e6e3d2e84) on building and publishing a portfolio on GitHub.
 
-#### Follow Xiaoying
+I used the free "Developer" Bootstrap template by 3rd Wave Media as a base and customized it to fit my portfolio goals. A few widgets (e.g., GitHub calendar and Medium feed) were removed or disabled due to rendering issues.
 
-[Twitter](https://twitter.com/3rdwave_themes)
+## Technologies Used
 
-[Facebook](https://www.facebook.com/3rdwavethemes/)
+- HTML5 + CSS3
+- Bootstrap 5 (no jQuery)
+- Jekyll (for GitHub Pages deployment)
+- SCSS
+- FontAwesome
 
-[Dribbble](https://dribbble.com/Xiaoying)
+## Repo Structure
 
-[Medium](https://medium.com/@3rdwave_themes)
+```
+├── README.md
+├── assets
+│   ├── LEGOproject_Images
+│   ├── css
+│   ├── fontawesome
+│   ├── images
+│   ├── js
+│   ├── plugins
+│   └── scss
+├── favicon.ico
+├── index.html
+└── second-page.html
+```
 
-[Linkedin](https://uk.linkedin.com/in/xiaoying)
+## Licensing & Credits
 
+This site uses the **Developer Bootstrap template** by [Xiaoying Riley](https://twitter.com/3rdwave_themes) of 3rd Wave Media.
 
-## Latest Version
-**Bootstrap 5 v2.0* - 2022-06-08
+- Template: [Free Bootstrap Theme for Web Developers](https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap-theme-for-web-developers/)
+- License: Free for personal use **with footer attribution**  
+  > If you'd like to use the template without attribution, a [commercial license](https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap-theme-for-web-developers/) is required.
 
-[Changelog](https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap-theme-for-web-developers/?target=changelog)
+### Author Content Licensing
 
+All content in this portfolio (project writeups, analysis, images, and text) is © Amanda Knight.  
+You may not copy, reuse, or redistribute any part of this repository without permission.
 
-## Features
+---
 
--  Fully Responsive
--  HTML5 + CSS3
--  Built on Bootstrap 5
--  No jQuery dependency
--  **SCSS** source files included
--  FontAwesome icons
+### Follow the Template Author
 
+- [Twitter](https://twitter.com/3rdwave_themes)
+- [Facebook](https://www.facebook.com/3rdwavethemes/)
+- [Dribbble](https://dribbble.com/Xiaoying)
+- [Medium](https://medium.com/@3rdwave_themes)
+- [LinkedIn](https://uk.linkedin.com/in/xiaoying)
 
-## Credits
-- [Bootstrap](http://getbootstrap.com/)
-- [FontAwesome](http://fortawesome.github.io/Font-Awesome/)
-- [GitHub Activity Stream](http://caseyscarborough.com/projects/github-activity/)
+---
 
-- [Vanilla RSS](https://github.com/sdepold/jquery-rss)
-- Profile image: [Ben Smith](https://www.flickr.com/photos/dotbenjamin/2577394151)
+_Thanks for visiting!_
