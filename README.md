@@ -35,7 +35,7 @@ I used the free "Developer" Bootstrap template by 3rd Wave Media as a base and c
 
 ## Repo Structure
 
-```
+```md
 ├── LICENSE
 ├── README.md
 ├── assets
