@@ -437,7 +437,7 @@ a.dotted-link:hover {
   font-size: 16px;
   position: relative;
   margin-top: 0;
-  margin-bottom: 10;
+  margin-bottom: 10px;
 }
 
 .skills .skillset .level-title .level-label {
@@ -894,4 +894,35 @@ body[data-theme="dark"] .text-muted {
     max-width: 85vw;
     /* Shrinks image on mobile */
   }
+}
+/* ===== Social Icon Fix ===== */
+
+.social .list-inline-item a {
+    width: 44px;
+    height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #2b3035;
+    color: #cfd4da;
+    font-size: 20px;
+    transition: all 0.25s ease;
+}
+
+/* hover effect */
+.social .list-inline-item a:hover {
+    background: #3b4148;
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+/* fix icon vertical alignment */
+.social .list-inline-item i {
+    line-height: 1;
+}
+
+/* slightly enlarge X logo because it renders smaller */
+.fa-x-twitter {
+    font-size: 18px;
 }
