@@ -38,6 +38,7 @@ a {
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
   text-decoration: none;
 }
 
@@ -56,6 +57,11 @@ a.btn {
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+
+
+
+
   font-family: 'Montserrat', arial, sans-serif;
   padding: 8px 16px;
   font-weight: bold;
@@ -308,6 +314,7 @@ a.dotted-link:hover {
   -moz-transform: rotate(45deg) translate3d(0, 0, 0);
   -ms-transform: rotate(45deg) translate3d(0, 0, 0);
   -o-transform: rotate(45deg) translate3d(0, 0, 0);
+  transform: rotate(45deg) translate3d(0, 0, 0);
 }
 
 .latest .has-ribbon .ribbon .text:before,
@@ -895,34 +902,35 @@ body[data-theme="dark"] .text-muted {
     /* Shrinks image on mobile */
   }
 }
+
 /* ===== Social Icon Fix ===== */
 
 .social .list-inline-item a {
-    width: 44px;
-    height: 44px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    background: #2b3035;
-    color: #cfd4da;
-    font-size: 20px;
-    transition: all 0.25s ease;
+  width: 44px;
+  height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #2b3035;
+  color: #cfd4da;
+  font-size: 20px;
+  transition: all 0.25s ease;
 }
 
 /* hover effect */
 .social .list-inline-item a:hover {
-    background: #3b4148;
-    color: #ffffff;
-    transform: translateY(-2px);
+  background: #3b4148;
+  color: #ffffff;
+  transform: translateY(-2px);
 }
 
 /* fix icon vertical alignment */
 .social .list-inline-item i {
-    line-height: 1;
+  line-height: 1;
 }
 
 /* slightly enlarge X logo because it renders smaller */
 .fa-x-twitter {
-    font-size: 18px;
+  font-size: 18px;
 }
